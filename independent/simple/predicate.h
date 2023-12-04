@@ -97,7 +97,7 @@ void biggies(std::vector<std::string>& words, std::vector<std::string>::size_typ
   std::cout << count << " " << make_plural(count, "word", "s")
             << " " << sz << " characters or longer" << std::endl;
   
-  // use object of type PringString
+  // use object of type PrintString
   // to print the contents of words, each one followed by a space
   std::for_each(wc, words.end(), PrintString(std::cout));
   std::cout << std::endl;
